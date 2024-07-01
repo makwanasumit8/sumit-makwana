@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sumit Makwana</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/makwanasumit8" class="link"
+          >SM.
+        </a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Sumit Makwana.</span></h1>
+        <h2 class="about__role">A Senior Software Engineer.</h2>
+        <p class="about__desc">
+            Welcome to my portfolio! I am a Senior Software Engineer with over 5 years of professional experience, specializing in Laravel. My expertise lies in developing robust and scalable web applications, leveraging the power of Laravel to create efficient and dynamic solutions. In addition to my primary focus, I possess foundational knowledge in Node.js, Express, React, and MongoDB, enabling me to handle diverse development tasks and contribute to full-stack projects. My passion for coding, attention to detail, and commitment to quality ensure that I deliver exceptional results. Explore my portfolio to see some of the projects I've worked on and feel free to reach out for collaboration.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://example.com" target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/makwanasumit8"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sumit-makwana-9sep95/"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+      
+          <div class="project">
+            <h3>Controlcase</h3>
+            <small class="italicFont">(Product)</small>
+            <p class="project__description">
+              ControlCase is a company that specializes in providing comprehensive compliance and cybersecurity
+solutions. They offer services to help businesses manage and ensure compliance with various regulatory
+standards, such as PCI DSS, ISO 27001, SOC 2, and GDPR.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Microservices</li>
+            </ul>
+
+            <a
+              href="https://www.controlcase.com/"
+              aria-label="company-site"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>AtlasCopco</h3>
+            <small class="italicFont">(CMS)</small>
+            <p class="project__description">
+              The AtlasCopco is a specialized tool tailored for teams utilizing equipment within production lines. Its
+primary focus is to support users in operating, servicing, and training related to this specific equipment.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">API Integration</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Azure Storage</li>
+              <li class="project__stack-item">Azure App service</li>
+              <li class="project__stack-item">Azure Sigin</li>
+            </ul>
+
+            <a
+              href="https://www.atlascopco.com/"
+              aria-label="company-site"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>SMSL</h3>
+            <small class="italicFont">(Logistics)</small>
+            <p class="project__description">
+              Introducing SM Secure Logistic, the comprehensive solution revolutionizing logistics management.
+Seamlessly navigate the entire shipment lifecycle with ease through our powerful platform.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">API Integration</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://www.smsecure.in/"
+              aria-label="live-site"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Graham</h3>
+            <small class="italicFont">(E-Commerce)</small>
+            <p class="project__description">
+              Graham is linking layer between consumers and different businesses such as Salons, Restaurants and
+Lawyers. Consumers will be benefited with ability to book their spots with the help of few taps on their
+iOS and Android Devices. They can rate, search, add notes, make payment and able to keep eye on
+history of their visits.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">API Integration</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">HyperPay - PG</li>
+            </ul>
+            
+
+          </div>
+
+          <div class="project">
+            <h3>JobSub</h3>
+            <small class="italicFont">(E-Commerce)</small>
+            <p class="project__description">
+              JobSub is advanced mobility solution built for the traders and customers which has changed the way
+tradesmen operate their business. The platform allows freedom to not only choose the type of work but
+also work in your desired locations.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">API Integration</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Stripe - PG</li>
+            </ul>
+
+          </div>
+
+          <div class="project">
+            <h3>LineOne</h3>
+            <small class="italicFont">(VoiceBot)</small>
+            <p class="project__description">
+              LineOne allows business owners to uplift their conversation ability by providing audio calling feature like
+quick chat option. It seamlessly available to install in any website and save tons of time in endless support
+emails and queries. Through this widget/system you can talk to your customers and elevate your sales
+process unlike anything.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">API Integration</li>
+              <li class="project__stack-item">Twilio API Integration</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Adyen - PG</li>
+              <li class="project__stack-item">Mailchimp</li>
+            </ul>
+
+          </div>
+
+          <div class="project">
+            <h3>ParkShark</h3>
+            <small class="italicFont">(Parking Management)</small>
+            <p class="project__description">
+              LineOne allows business owners to uplift their conversation ability by providing audio calling feature like
+quick chat option. It seamlessly available to install in any website and save tons of time in endless support
+emails and queries. Through this widget/system you can talk to your customers and elevate your sales
+process unlike anything.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">API Integration</li>
+              <li class="project__stack-item">Twilio API Integration</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Strpe - PG</li>
+            </ul>
+
+            <a
+              href="https://parkshark.app/"
+              aria-label="live-site"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+
+          </div>
+
+          <div class="project">
+            <h3>Vibrant</h3>
+            <small class="italicFont">(E-Commerce)</small>
+            <p class="project__description">
+              Vibrant provides a concierge service by creating an environment where Customers and Vendors can
+meet, negotiate and conduct their transactions in a fair respectful manner so that all parties needs are
+met in terms of budget, goals and timely delivery.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">API Integration</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Strpe - PG</li>
+            </ul>
+
+          </div>
+
+          <div class="project">
+            <h3>NumberFi</h3>
+            <small class="italicFont">(Calling App)</small>
+            <p class="project__description">
+              Quick and easy way to connect friends and family across the globe. NumberFi allow users to make voice
+calls and send text messages via internet. Users can record their calls, find history, access their contact
+book within the application and also can purchase multiple phone numbers to make
+and receive calls.
+            </p>
+            <h5 class="italicFontHeading">Technology & Skills</h5>
+            <ul class="project__stack">
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">API Integration</li>
+              <li class="project__stack-item">Twilio API integration</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">ES6</li>
+              <li class="project__stack-item">jQuery</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Strpe - PG</li>
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Laravel</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">jQuery</li>
+          <li class="skills__list-item btn btn--plain">Node.js</li>
+          <li class="skills__list-item btn btn--plain">Express</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">MongoDB</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">RESTful APIs</li>
+          <li class="skills__list-item btn btn--plain">Agile Methodologies</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:makwanasumit8@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/makwanasumit8"
+        class="link footer__link"
+      >
+        Created By Sumit Makwana
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
